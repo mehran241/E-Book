@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap-5</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" >
+</head>
+<body>
+
+<!--  Navbar  -->
+<nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-xl">
+        <a href="#intro" class="navbar-brand">
+            <span class="text-muted "> Code - ProBook</span>
+        </a>
+
+        <!-- navigation toggler -->
+        <button class="navbar-toggler" type="button"
+         data-bs-toggle="collapse" data-bs-target="#main-nav"
+         aria-controls="main-nav" aria-expanded="false"
+         aria-label="Toggle navigation">    
+         <span class="navbar-toggler-icon">
+            
+         </span>
+        </button>
+        
+        <!-- nav-links -->
+        <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#topics" class="nav-link">Contents</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#reviews" class="nav-link">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Get In Touch</a>
+                </li>
+                <li class="nav-item d-md-none">
+                    <a href="#pricing" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item ms-2 d-none d-md-inline">
+                    <a href="#pricing" class="btn btn-secondary">Buy Now</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!--  section intro and img-->
+<section id="intro">
+    <div class="container-lg">
+        <div class="row justify-content-center align-items-center">
+           <div class="col-md-5 text-center text-md-start">
+               <h1>
+                   <div class="display-2">E-Book</div>
+                   <div class="display-5 text-muted">Your Coding Skills</div>
+               </h1>
+               <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+               <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+           </div>
+           <div class="col-md-5 text-center d-none d-md-block">
+               <img class="img-fluid py-3"  src="/imgs/the-book.png" alt="book">
+           </div>
+        </div>
+    </div>
+</section>
+
+ 
+
+</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
